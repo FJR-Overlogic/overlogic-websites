@@ -1,0 +1,102 @@
+.footer {
+    font-size: 13px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #00a6b5;
+    color: rgb(220, 239, 255);
+}
+
+.footer-section-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-indent: 10px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sub-footer-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-footer-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #08909c;
+}
+.sub-footer-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #808080;
+}
+.footer-section-2{
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-section-2 box-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.244);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.footer-section-list span {
+    cursor: pointer;
+    padding: 10px;
+}
+.footer-section-list span:hover {
+    background-color: rgba(255, 255, 255, 0.184);
+}
+.footer-text-info {
+    padding: 20px;
+    width: 30%;
+}
+
+
+@media screen and (max-width: 580px){
+    .footer-section-list {
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        font-weight:bolder;
+    }
+    .footer-section-1 {
+        color: aliceblue;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer-section-2{
+        flex-direction: column;
+        justify-content: flex-start;
+    
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .footer-section-1 {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .sub-footer-2 p{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .sub-footer-3 p{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .footer-section-2 {
+        padding-right: 20%;
+        padding-left: 20%;
+    
+    }
+}

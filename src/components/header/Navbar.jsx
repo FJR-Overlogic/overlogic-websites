@@ -25,7 +25,7 @@ const Navbar = () => {
             Contact
           </a>
         </li>
-        <li id="github hre">
+        <li id="github">
           <a href="https://github.com/FJR-Overlogic/overlogic-websites" target="_blank">
             Github
           </a>
